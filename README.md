@@ -24,7 +24,9 @@ Create a single page application that would that would satisfy the following req
 	- 1 == positive answer;
 	- 0 == average answer;
 	- -1 == negative answer.
+
 should look for example like this:
+
 ```
 [
   "1",
