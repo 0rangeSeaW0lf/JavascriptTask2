@@ -60,6 +60,6 @@ angular.module('drivekpi', ['ngAnimate', 'ui.router'])
     // $rootScope.$on('$stateChangeError', function(event, toState, toParams, fromState, fromParams, error) {
     //     $state.go("home");
     // });
-    $rootScope.answers = new Array($rootScope.phrases.length);
+    $rootScope.answers = [];
     $stateParams.step = 1;
   });
