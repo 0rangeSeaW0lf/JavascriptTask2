@@ -1,0 +1,28 @@
+<div class="row main">
+  <div class="col-xs-6 col-xs-offset-3 text-center aligner">
+    <div class="child">
+      <h1><strong>DRIVE</strong>KPI</h1>
+      <div class="row">
+        <div class="col-xs-offset-3 col-xs-6 date">
+          <h2>{{ date | date:'dd MMMM yyyy' }}</h2>
+        </div>
+      </div>
+      <h3><i>{{ texts[0] }}</i></h3>
+      <br /><br /><br />
+      <div>
+      <button class="btn btn-lg btn-success" ng-click="answer('1')">{{ responses[0] }}</button>
+      </div>
+      <br />
+      <div>
+      <button class="btn btn-lg btn-warning" ng-click="answer('0')">{{ responses[1] }}</button>
+      </div>
+      <br />
+      <div>
+      <button class="btn btn-lg btn-danger" ng-click="answer('-1')">{{ responses[2] }}</button>
+      </div>
+      <br /><br /><br />
+      <h3><i>{{ texts[1] }}</i></h3>
+      <h3><i>{{ texts[2] }}</i></h3>
+    </div>
+  </div>
+</div>˙
